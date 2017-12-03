@@ -33,7 +33,7 @@ LOCAL_EXPORT_C_INCLUDE_DIRS := $(LOCAL_PATH)/../include
 
 LOCAL_MODULE:= libril
 ifeq ($(TARGET_NEEDS_GCC_LIBRIL),true)
-    LOCAL_CLANG := false
+    #LOCAL_CLANG := false
 else
     LOCAL_CLANG := true
     LOCAL_SANITIZE := integer
